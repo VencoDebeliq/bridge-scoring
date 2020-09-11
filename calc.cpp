@@ -15,7 +15,7 @@ int main()
     int dif;
     cout<<"Number of boards:";
     cin>>numberOfBoards;
-    cout<<"\n IMP difference:";
+    cout<<"IMP difference:";
     cin>>dif;
     if (dif>73)
     {
