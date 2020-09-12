@@ -34,6 +34,7 @@ int main()
     }
     if (score[2]=='d') score[2]='c';
     if (score[2]=='s') score[2]='h';
+    if (score[2]=='n') score[2]='N';
     switch (score[0])
     {
         case '1':
@@ -50,6 +51,8 @@ int main()
                     return 0;
 
                 case 'N':
+                    file.open("1nt");
+                    outputTheFile();
                     return 0;
             }
         case '2':
@@ -66,6 +69,8 @@ int main()
                     return 0;
 
                 case 'N':
+                    file.open("2nt");
+                    outputTheFile();
                     return 0;
             }
         case '3':
@@ -82,6 +87,8 @@ int main()
                     return 0;
 
                 case 'N':
+                    file.open("3nt");
+                    outputTheFile();
                     return 0;
         }
         case '4':
@@ -98,6 +105,8 @@ int main()
                     return 0;
 
                 case 'N':
+                    file.open("4nt");
+                    outputTheFile();
                     return 0;
             }
         case '5':
@@ -114,6 +123,8 @@ int main()
                     return 0;
 
                 case 'N':
+                    file.open("5nt");
+                    outputTheFile();
                     return 0;
             }
         case '6':
@@ -130,6 +141,8 @@ int main()
                     return 0;
                 
                 case 'N':
+                    file.open("6nt");
+                    outputTheFile();
                     return 0;
             }
         case '7':
@@ -146,6 +159,8 @@ int main()
                     return 0;
                 
                 case 'N':
+                    file.open("7nt");
+                    outputTheFile();
                     return 0;
             }
     }
