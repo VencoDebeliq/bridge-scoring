@@ -45,6 +45,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("1heart");
+                    outputTheFile();
                     return 0;
 
                 case 'N':
@@ -59,6 +61,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("2heart");
+                    outputTheFile();
                     return 0;
 
                 case 'N':
@@ -73,6 +77,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("3heart");
+                    outputTheFile();
                     return 0;
 
                 case 'N':
@@ -87,6 +93,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("4heart");
+                    outputTheFile();
                     return 0;
 
                 case 'N':
@@ -101,6 +109,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("5heart");
+                    outputTheFile();
                     return 0;
 
                 case 'N':
@@ -115,6 +125,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("6heart");
+                    outputTheFile();
                     return 0;
                 
                 case 'N':
@@ -129,6 +141,8 @@ int main()
                     return 0;
 
                 case 'h':
+                    file.open("7heart");
+                    outputTheFile();
                     return 0;
                 
                 case 'N':
